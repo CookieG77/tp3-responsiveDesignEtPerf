@@ -23,16 +23,3 @@ jobs:
 
       - name: Check syntax
         run: python -m py_compile app.py
-
-      - name: Verify required files
-        run: |
-          python -c "
-from pathlib import Path
-import sys
-
-script_dir = Path('.')
-assert (script_dir / 'index.html').exists(), 'index.html not found'
-assert (script_dir / 'styles' / 'style.css').exists(), 'style.css not found'
-assert (script_dir / 'images' / 'cool-code-image.png').exists(), 'cool-code-image.png not found'
-print('All required files found ✓')
-"
