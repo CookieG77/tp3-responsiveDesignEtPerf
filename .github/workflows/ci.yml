@@ -23,4 +23,4 @@ jobs:
       - name: Basic Checks
         run: |
           python -m py_compile app.py
-          python -c "from pathlib import Path; Path('index.html').read_text(endcoding='utf-8');Path('styles/style.css').read_text(endcoding='utf-8'); Path('images/cool-code-image.png').exists(); Path('images/cool-code-image.png').read_bytes();"
+          python -c "from pathlib import Path; Path('index.html').read_text(encoding='utf-8');Path('styles/style.css').read_text(encoding='utf-8'); Path('images/cool-code-image.png').exists(); Path('images/cool-code-image.png').read_bytes();"
