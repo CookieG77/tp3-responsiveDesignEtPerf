@@ -49,4 +49,4 @@ L'application sera accessible à l'adresse : `http://localhost:8501`
 
 ## Lien Streamlit
 
-[Application déployée (Via GitHub Workflow)]()
+[Application déployée (Via GitHub Workflow)](https://maxime-cordonnier-tp3-acme.streamlit.app/)
